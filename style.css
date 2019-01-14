@@ -1,0 +1,37 @@
+﻿h1{
+    font-family:Calibri;
+    font-size:80px;
+}
+body
+{
+    text-align:center;
+    background-color:coral;
+}
+#clock{
+    background-color:peachpuff;
+    color:black;
+    width:100%;
+    text-align:center;
+    font-size:2em;
+}
+    #clock > div {
+        display: inline-block;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: burlywood;
+    }
+    #clock div > span {
+        display: inline-block;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: floralwhite;
+    }
+    input{
+        font-size:1.5em;
+        margin:25px;
+        padding:10px;
+    }
+    small{
+        padding-top:10px;
+        font-size:0.9em;
+    }
